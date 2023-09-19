@@ -70,15 +70,14 @@ main{
 
 /* Section styles  */
 .about{
-    margin-top: 130px;
     background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
 }
 .section-title{
-   
-    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
 }
@@ -99,4 +98,27 @@ main{
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+section{
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0 6px 50 px rgba(0, .0, .0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
 }
